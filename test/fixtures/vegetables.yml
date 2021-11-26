@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  good_at: 1
+  hp: 1
+  power: 1
+
+two:
+  name: MyString
+  good_at: 1
+  hp: 1
+  power: 1
