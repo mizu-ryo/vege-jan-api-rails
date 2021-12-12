@@ -8,7 +8,10 @@ Rails.application.routes.draw do
   end
   namespace 'api' do
     namespace 'v1' do
-      resources :users, only: [:index]
+      get "users/index" => "users#index"
+      get "users/show" => "users#show"
+      get "users/show_users_ranking" => "users#show_users_ranking"
+      put "users/edit_user_point" => "users#edit_user_point"
     end
   end
 end
